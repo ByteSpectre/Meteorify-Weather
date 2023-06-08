@@ -1,0 +1,11 @@
+{
+  "name": "weather-site-1",
+  "version": "1.0.0",
+  "description": "Weather Meteorify Site",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hexlet Students",
+  "license": "ISC"
+}
