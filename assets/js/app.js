@@ -10,6 +10,12 @@ const searchTogglers = document.querySelectorAll("[data-search-toggler]");
 const toggleSearch = () => searchView.classList.toggle("active");
 addEventOnElements(searchTogglers, "click", toggleSearch);
 
+const searchView = document.querySelector("[data-search-view]");
+const searchTogglers = document.querySelectorAll("[data-search-toggler]");
+
+const toggleSearch = () => searchView.classList.toggle("active");
+addEventOnElements(searchTogglers, "click", toggleSearch);
+
 const searchField = document.querySelector("[data-search-field]");
 const searchResult = document.querySelector("[data-search-result]");
 
