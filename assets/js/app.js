@@ -1,5 +1,7 @@
 'use strict';
 
+import { fetchData, url } from "./api.js";
+
 const addEventOnElements = function (elements, eventType, callback) {
   for (const element of elements) element.addEventListener(eventType, callback);
 }
@@ -80,3 +82,26 @@ const container = document.querySelector("[data-container]");
 const loading = document.querySelector("[data-loading]");
 const currentLocationBtn = document.querySelector("[data-current-location-btn]");
 const errorContent = document.querySelector("[data-error-content]");
+
+export const updateWeather = function (lat, lon) {
+
+  loading.style.display = "grid";
+  container.style.overflowY = "hidden";
+  container.classList.remove("fade-in");
+  errorContent.style.display = "none";
+
+  const currentWeatherSection = document.querySelector("[data-current-weather]");
+  const highlightSection = document.querySelector("[data-highlights]");
+  const hourlySection = document.querySelector("[data-hourly-forecast]");
+  const forecastSection = document.querySelector("[data-5-day-forecast]");
+
+  currentWeatherSection.innerHTML = "";
+  highlightSection.innerHTML = "";
+  hourlySection.innerHTML = "";
+  forecastSection.innerHTML = "";
+
+  if (window.location.hash === "#/current-location") {
+    currentLocationBtn.setAttribute("disabled", "");
+  } else {
+    currentLocationBtn.removeAttribute("disabled");
+  }
