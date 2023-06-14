@@ -75,7 +75,7 @@ To deploy the site, copy the repository to your computer and start Live Server t
 
   
 
-See also the list of ([contributors]https://github.com/Moshi231/Meteorify-Weather/graphs/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/Moshi231/Meteorify-Weather/graphs/contributors) who participated in this project.
 
   
 
