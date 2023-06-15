@@ -291,7 +291,7 @@ body {
   opacity: 0;
   visibility: hidden;
   z-index: 4;
-  transition: clip-path 500s ease;
+  transition: clip-path 500ms ease;
 }
 
 .search-view.active {
