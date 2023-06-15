@@ -292,8 +292,8 @@ export const updateWeather = function (lat, lon) {
       highlightSection.appendChild(card);
 
     });
-    
-fetchData(url.forecast(lat, lon), function (forecast) {
+
+    fetchData(url.forecast(lat, lon), function (forecast) {
 
       const {
         list: forecastList,
@@ -358,7 +358,7 @@ fetchData(url.forecast(lat, lon), function (forecast) {
 
       }
 
-  forecastSection.innerHTML = `
+      forecastSection.innerHTML = `
         <h2 class="title-2" id="forecast-label">5 Days Forecast</h2>
 
         <div class="card card-lg forecast-card">
