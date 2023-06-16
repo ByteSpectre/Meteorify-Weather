@@ -72,6 +72,7 @@ To deploy the site, copy the repository to your computer and start Live Server t
 - [Yuri Vasil'ev](https://github.com/SuperKanat) - Developer
 - [Artemiy Pavlovich](https://github.com/jonersky01) - HTML&CSS Developer
 - [Kirill Ivanov](https://github.com/KirOus11) - WEB Designer
+- [Denis Nazarov](https://github.com/Denian-Muir) - QA Engineer
 
   
 
